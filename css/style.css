@@ -33,12 +33,12 @@ body {
 .twitter-buttons {
   background-color: rgb(0, 172, 237);
   color: azure;
-  
+
 }
 
 .twitter-buttons:hover {
   color: rgb(215, 228, 228);
-  background-color: rgb( 0, 132, 180);
+  background-color: rgb(0, 132, 180);
 }
 
 .gh-buttons {
@@ -68,7 +68,7 @@ p {
   font-size: 110%;
   display: block;
   margin-top: 1%;
-  margin-bottom:2%;
+  margin-bottom: 2%;
 }
 
 .project-title {
