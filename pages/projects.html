@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Projects</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Nick Hanselman's Personal Web-Site">
+  <meta name="keywords" content="">
+  <meta name="author" content="Nick Hanselman">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Header/Image/Title -->
+    <div class="row">
+      <div class="col">
+        <header style="margin: 5%;"></header>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img class="personal-pic rounded-circle" src="../img/me.jpg" alt="A picture of me">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h1 class="main-head">Projects</h1>
+      </div>
+    </div>
+
+    <!-- Main Buttons -->
+    <div class="row">
+      <div class="col">
+        <ul class="list-inline main-button-list">
+          <li class="list-inline-item">
+            <a class="btn main-buttons" href="../index.html" role="button">Home</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn main-buttons" href="./about.html" role="button">About Me</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn main-buttons" href="../extra/HanselmanResume.pdf" target="_blank" role="button">Resumé</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn main-buttons" href="https://github.com/nickhans/" target="_blank" role="button">Github</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn main-buttons" href="./contact.html" role="button">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="row">
+      <div class="col-9" style="display: block; margin: 0 auto;">
+        <h3 class="project-title"><b>@theRealShayon</b> - <i>Fall 2018</i></h3>
+        <div class="proj-desc-container">
+          <p>
+            @theRealShayon was a project created for the CSCI 2270 Data Structures course at the University of Colorado,
+            Boulder
+            The objective of the project was to use any data structure in any way of our choosing. My partner Jacob
+            Hough
+            and I decided to create a twitter
+            bot that generates text using a graph data structures as a Markov Chain. The main process read sentences
+            from
+            a text file and stored each unique word in a graph.
+            Next, probabilities of word occurences were calculated and used to traverse the graph and generate a new
+            sentence. This main process was written in C++. The
+            C++ compiled program was called from a Python script which managed the Twitter account.
+          </p>
+          <a class="btn gh-buttons" href="https://github.com/houghelpuff/theRealShayon/" target="_blank"
+            role="button">Github</a>
+          <a class="btn twitter-buttons" href="https://twitter.com/theRealShayon/" target="_blank"
+            role="button">Twitter</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-9" style="display: block; margin: 0 auto;">
+        <h3 class="project-title"><b>@theRealPython</b> - <i>Winter 2018</i></h3>
+        <div class="proj-desc-container">
+          <p>
+            @theRealPython is a pure Python rework of @theRealShayon. This version was created so that the program could
+            run on a server. @theRealPython is the version of the project that is actively deployed on Heroku and is
+            still
+            currently tweeting.
+          </p>
+          <a class="btn gh-buttons" href="https://github.com/nickhans/theRealPython" target="_blank"
+            role="button">Github</a>
+          <a class="btn twitter-buttons" href="https://twitter.com/theRealShayon/" target="_blank"
+            role="button">Twitter</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="row">
+      <div class="col">
+        <footer style="margin: 5%"></footer>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+<!-- SCRIPTS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>

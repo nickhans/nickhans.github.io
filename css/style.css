@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(37, 37, 37);
+}
+
+.personal-pic {
+  width: 30%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-button-list {
+  padding: 2%;
+  text-align: center;
+}
+
+.main-buttons {
+  background-color: rgb(255, 139, 139);
+  color: azure;
+}
+
+.main-buttons:hover {
+  color: rgb(215, 228, 228);
+  background-color: rgb(214, 96, 96);
+}
+
+.proj-desc-container {
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+.twitter-buttons {
+  background-color: rgb(0, 172, 237);
+  color: azure;
+  
+}
+
+.twitter-buttons:hover {
+  color: rgb(215, 228, 228);
+  background-color: rgb( 0, 132, 180);
+}
+
+.gh-buttons {
+  color: rgb(37, 37, 37);
+  background-color: azure;
+}
+
+.gh-buttons:hover {
+  background-color: rgb(201, 212, 212);
+  color: rgb(26, 26, 26);
+}
+
+.main-head {
+  font-size: 500%;
+  color: azure;
+  text-align: center;
+}
+
+.sub-head {
+  font-size: 300%;
+  color: azure;
+  text-align: center;
+}
+
+p {
+  color: azure;
+  font-size: 110%;
+  display: block;
+  margin-top: 1%;
+  margin-bottom:2%;
+}
+
+.project-title {
+  color: azure;
+  font-size: 210%;
+}
+
+label {
+  color: azure;
+}
